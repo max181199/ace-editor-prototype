@@ -1,0 +1,79 @@
+{
+  "commonTables" : [
+    {
+      "databaseName" : "consultant",
+      "tableName"    : "cs",
+      "comment"      : "cs-table-comment",
+      "popularity"   : 10,
+      "columns"       : [
+        {
+          "columnName" : "name",
+          "columnComment" : "name of component",
+          "columnType" : "STRING",
+          "popularity"   : 1
+        },
+        {
+          "columnName" : "data",
+          "columnComment" : "creation data of component",
+          "columnType" : "TIMESTAMP",
+          "popularity"   : 2
+        },
+        {
+          "columnName" : "discription",
+          "columnComment" : "dicription of the component",
+          "columnType" : "STRING",
+          "popularity"   : 3
+        }
+      ]
+    },
+    {
+      "databaseName" : "consultant",
+      "tableName"    : "cs2",
+      "comment"      : "cs-table-comment",
+      "popularity"   : 4,
+      "columns"       : [
+        {
+          "columnName" : "name",
+          "columnComment" : "name of component",
+          "columnType" : "STRING",
+          "popularity"   : 5
+        },
+        {
+          "columnName" : "data",
+          "columnComment" : "creation data of component",
+          "columnType" : "TIMESTAMP",
+          "popularity"   : 6
+        },
+        {
+          "columnName" : "discription",
+          "columnComment" : "dicription of the component",
+          "columnType" : "STRING",
+          "popularity"   : 6
+        }
+      ]
+    }
+  ],
+  "userTables" : [
+    {
+      "databaseName" : "user_login",
+      "tableName"    : "test_table",
+      "comment"      : "test_table-table-comment",
+      "popularity"   : 7,
+      "columns"       : [
+        {
+          "columnName" : "id",
+          "columnComment" : "unique id of component",
+          "columnType" : "INT",
+          "popularity"   : 8
+        },
+        {
+          "columnName" : "content",
+          "columnComment" : "table content",
+          "columnType" : "STRING",
+          "popularity"   : 9
+        }
+      ]
+    }
+
+  ] 
+}

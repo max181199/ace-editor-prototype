@@ -1,0 +1,33 @@
+[
+  {
+    "tables" : ["cs","test_table","cs2"],
+    "type" : ["left outer join","inner join"],
+    "joinCols" : [
+      [
+        {
+          "columnName" : "name",
+          "columnType" : "STRING",
+          "columnTable": "cs"
+        },
+        {
+          "columnName" : "content",
+          "columnType" : "STRING",
+          "columnTable": "test_table"
+        }
+      ],
+      [
+        {
+          "columnName" : "name",
+          "columnType" : "STRING",
+          "columnTable": "cs"
+        },
+        {
+          "columnName" : "content",
+          "columnType" : "STRING",
+          "columnTable": "test_table"
+        }
+      ]
+    ],
+    "popularity" : 10
+  }
+]
